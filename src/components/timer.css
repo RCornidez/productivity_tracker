@@ -1,0 +1,35 @@
+.timer {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+}
+
+.clock {}
+
+.watch-face {}
+
+.stop {}
+ 
+.start {}
+
+.show-stats {}
+
+.data {
+	display: flex;
+	flex-direction: column;
+}
+
+.show-timer {}
+
+.records {
+	display: flex;
+	flex-direction: column;
+}
+
+.data-list {
+	display: flex;
+	flex-direction: column;
+	overflow-y: scroll;
+	max-height: 223.94px;
+}
