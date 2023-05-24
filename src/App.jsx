@@ -8,16 +8,18 @@ import './App.css'
 import Timer from './components/timer'
 
 
+//			<ul className="navigation">
+//				<li className="nav--list">
+//					<Link to="/" className="nav-item">Timer</Link>
+//					<Link to="/todo" className="nav-item">TODO</Link>
+//				</li>
+//			</ul>
+
+
 function App() {
 
   return (
     <div className="App">
-			<ul className="navigation">
-				<li className="nav--list">
-					<Link to="/" className="nav-item">Timer</Link>
-					<Link to="/todo" className="nav-item">TODO</Link>
-				</li>
-			</ul>
 			<Routes>
 				<Route exact path="/" element={<Timer/>} />
 				<Route exact path="/todo" element={<p>TODO</p>} />
